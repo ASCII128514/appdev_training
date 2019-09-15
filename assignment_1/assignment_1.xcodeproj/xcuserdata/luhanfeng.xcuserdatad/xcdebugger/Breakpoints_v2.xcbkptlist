@@ -10,119 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "assignment_1/ViewController.swift"
-            timestampString = "590255509.154632"
+            timestampString = "590256009.66462"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment_1.ViewController.btn.getter : Swift.Optional&lt;__C.UIButton&gt;"
-                  moduleName = "assignment_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/luhanfeng/code/ASCII128514/appdev_training/assignment_1/assignment_1/ViewController.swift"
-                  timestampString = "590255062.951018"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "86">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment_1.ViewController.btn.setter : Swift.Optional&lt;__C.UIButton&gt;"
-                  moduleName = "assignment_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/luhanfeng/code/ASCII128514/appdev_training/assignment_1/assignment_1/ViewController.swift"
-                  timestampString = "590255062.9535691"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "106">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment_1.ViewController.btn.modify : Swift.Optional&lt;__C.UIButton&gt;"
-                  moduleName = "assignment_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/luhanfeng/code/ASCII128514/appdev_training/assignment_1/assignment_1/ViewController.swift"
-                  timestampString = "590255062.960247"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "69">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment_1.ViewController.btn.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "assignment_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/luhanfeng/code/ASCII128514/appdev_training/assignment_1/assignment_1/ViewController.swift"
-                  timestampString = "590255062.963223"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment_1.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; assignment_1.ViewController"
-                  moduleName = "assignment_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/luhanfeng/code/ASCII128514/appdev_training/assignment_1/assignment_1/ViewController.swift"
-                  timestampString = "590255062.9900579"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "821">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "assignment_1.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;assignment_1.ViewController&gt;"
-                  moduleName = "assignment_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/luhanfeng/code/ASCII128514/appdev_training/assignment_1/assignment_1/ViewController.swift"
-                  timestampString = "590255063.003561"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "735">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "assignment_1/ViewController.swift"
-            timestampString = "590255509.155032"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "submit(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -134,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "assignment_1/ViewController.swift"
-            timestampString = "590255509.155274"
+            timestampString = "590256009.664946"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "submit(_:)"
             landmarkType = "7">
          </BreakpointContent>

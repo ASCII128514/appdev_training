@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btn: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -20,6 +22,7 @@ class ViewController: UIViewController {
         }
     }
     
+
     var hasInput = false
     func check(hasInput: Bool) {
         nameLabel.isHidden = hasInput
@@ -43,7 +46,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var welcomeMessage: UILabel!
     
-    @IBOutlet weak var btn: UIButton!
     
     @IBAction func submit(_ sender: Any) {
         if (!self.hasInput) {
@@ -53,6 +55,7 @@ class ViewController: UIViewController {
             UserDefaults.standard.set(y, forKey: "classYear")
             self.hasInput = true
             check(hasInput: hasInput)
+            btn.setTitle("reset", for: .normal)
         } else {
             // in this case it is reset
             self.hasInput = false
@@ -60,6 +63,7 @@ class ViewController: UIViewController {
             UserDefaults.standard.removeObject(forKey: "name")
             UserDefaults.standard.removeObject(forKey: "classYear")
             welcomeMessage.text = "welcome, plz enter your info"
+            btn.setTitle("submit", for: .normal)
         }
     }
 

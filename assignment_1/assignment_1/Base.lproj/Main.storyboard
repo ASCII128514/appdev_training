@@ -44,7 +44,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqo-lF-wyZ">
                                 <rect key="frame" x="44" y="342" width="69" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nDt-ty-DfS"/>
                                 </connections>
@@ -77,7 +77,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="Iqo-lF-wyZ" id="fa1-z4-qtu"/>
+                        <outlet property="btn" destination="Iqo-lF-wyZ" id="2zY-Up-o2e"/>
                         <outlet property="classYear" destination="7ee-nR-zh3" id="U0c-kG-LGT"/>
                         <outlet property="classYearLabel" destination="ncF-1K-xDL" id="seL-AE-4Qg"/>
                         <outlet property="name" destination="rhK-uz-476" id="9mZ-5S-K6u"/>
