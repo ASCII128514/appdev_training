@@ -14,6 +14,10 @@
 		20105608232DE89100DD77A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20105606232DE89100DD77A0 /* LaunchScreen.storyboard */; };
 		20105613232DE89100DD77A0 /* assignment_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20105612232DE89100DD77A0 /* assignment_1Tests.swift */; };
 		2010561E232DE89100DD77A0 /* assignment_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010561D232DE89100DD77A0 /* assignment_1UITests.swift */; };
+		204412C2233165260084DD1F /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204412C1233165260084DD1F /* Cat.swift */; };
+		204412C823317E4D0084DD1F /* CatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204412C723317E4D0084DD1F /* CatDetailViewController.swift */; };
+		20680C82232F1B4E00D5F9A3 /* CatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20680C81232F1B4E00D5F9A3 /* CatTableViewController.swift */; };
+		20680C84232F1B5E00D5F9A3 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20680C83232F1B5E00D5F9A3 /* CatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		20105619232DE89100DD77A0 /* assignment_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2010561D232DE89100DD77A0 /* assignment_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment_1UITests.swift; sourceTree = "<group>"; };
 		2010561F232DE89100DD77A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204412C1233165260084DD1F /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		204412C723317E4D0084DD1F /* CatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatDetailViewController.swift; path = ../../../../../.Trash/CatDetailViewController.swift; sourceTree = "<group>"; };
+		20680C81232F1B4E00D5F9A3 /* CatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewController.swift; sourceTree = "<group>"; };
+		20680C83232F1B5E00D5F9A3 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		201055FC232DE89000DD77A0 /* assignment_1 */ = {
 			isa = PBXGroup;
 			children = (
+				204412C02331650B0084DD1F /* model */,
 				201055FD232DE89000DD77A0 /* AppDelegate.swift */,
 				201055FF232DE89000DD77A0 /* ViewController.swift */,
+				20680C81232F1B4E00D5F9A3 /* CatTableViewController.swift */,
+				20680C83232F1B5E00D5F9A3 /* CatTableViewCell.swift */,
 				20105601232DE89000DD77A0 /* Main.storyboard */,
+				204412C723317E4D0084DD1F /* CatDetailViewController.swift */,
 				20105604232DE89100DD77A0 /* Assets.xcassets */,
 				20105606232DE89100DD77A0 /* LaunchScreen.storyboard */,
 				20105609232DE89100DD77A0 /* Info.plist */,
@@ -123,6 +135,14 @@
 				2010561F232DE89100DD77A0 /* Info.plist */,
 			);
 			path = assignment_1UITests;
+			sourceTree = "<group>";
+		};
+		204412C02331650B0084DD1F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				204412C1233165260084DD1F /* Cat.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20680C84232F1B5E00D5F9A3 /* CatTableViewCell.swift in Sources */,
 				20105600232DE89000DD77A0 /* ViewController.swift in Sources */,
+				204412C2233165260084DD1F /* Cat.swift in Sources */,
+				20680C82232F1B4E00D5F9A3 /* CatTableViewController.swift in Sources */,
 				201055FE232DE89000DD77A0 /* AppDelegate.swift in Sources */,
+				204412C823317E4D0084DD1F /* CatDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
