@@ -28,5 +28,24 @@ class Cat: NSObject {
         print(catArray)
         count += 1
     }
+    
+    class func loadCat(completion: @escaping (Array<Dictionary<String, String>>) -> Void) -> Void {
+        let url = URL(string: "http://www.chenziwe.com/cats")!
+        let session = URLSession(configuration: .default)
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
+        let task = session.dataTask(with: request) { (data, response, err)
+            in
+            if ((err) != nil) {
+                print("loading unseccessful")
+                return
+            }
+            
+            let result = try? JSONSerialization.jsonObject(with: data!, options: []) as! Array<Dictionary<String, String>>
+
+            completion(result!)
+        }
+        task.resume()
+    }
 
 }

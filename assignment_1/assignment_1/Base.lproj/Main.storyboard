@@ -115,23 +115,23 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="119.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppH-mg-lmx">
-                                            <rect key="frame" x="53" y="49.5" width="43" height="20.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4nN-8h-HqV">
                                             <rect key="frame" x="217" y="11" width="177" height="90"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="177" id="wfH-oR-qUL"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppH-mg-lmx">
+                                            <rect key="frame" x="53" y="27" width="117" height="59"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottomMargin" secondItem="4nN-8h-HqV" secondAttribute="bottom" constant="8" id="BQv-Dz-MvY"/>
-                                        <constraint firstItem="ppH-mg-lmx" firstAttribute="centerY" secondItem="Cb0-D9-jqJ" secondAttribute="centerY" id="CFO-dI-728"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="ppH-mg-lmx" secondAttribute="bottom" constant="39" id="VcZ-N1-Ym7"/>
+                                        <constraint firstItem="ppH-mg-lmx" firstAttribute="centerY" secondItem="Cb0-D9-jqJ" secondAttribute="centerY" constant="-3.25" id="CFO-dI-728"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ppH-mg-lmx" secondAttribute="bottom" constant="23" id="VcZ-N1-Ym7"/>
                                         <constraint firstItem="4nN-8h-HqV" firstAttribute="trailing" secondItem="Cb0-D9-jqJ" secondAttribute="trailingMargin" id="Xre-XE-zdd"/>
                                         <constraint firstItem="ppH-mg-lmx" firstAttribute="leading" secondItem="Cb0-D9-jqJ" secondAttribute="leadingMargin" constant="33" id="cHE-2J-aSo"/>
                                         <constraint firstItem="4nN-8h-HqV" firstAttribute="top" secondItem="Cb0-D9-jqJ" secondAttribute="topMargin" id="rZk-Ji-Va5"/>

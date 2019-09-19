@@ -14,12 +14,22 @@ class CatTableViewController: UITableViewController {
         super.viewDidLoad()
         // if there an't any cat, add default cat
         if (Cat.count == 0) {
-            Cat.addCat(name: "Cat1", image: #imageLiteral(resourceName: "download"), age: 1, type: "corgi")
-            Cat.addCat(name: "Cat2", image: #imageLiteral(resourceName: "download-1"), age: 2, type: "husky")
-            print("in if ")
+            Cat.loadCat { (res) in
+                for i in res {
+                    let imgUrl = URL(string: i["image"]!)
+                    let name = i["name"]
+                    let img = UIImage(data: try! Data(contentsOf: imgUrl!))
+                    
+                    Cat.addCat(name: name, image: img, age: Int(i["age"]!), type: i["type"])
+                }
+            }
+//            Cat.addCat(name: "Cat1", image: #imageLiteral(resourceName: "download"), age: 1, type: "corgi")
+//            Cat.addCat(name: "Cat2", image: #imageLiteral(resourceName: "download-1"), age: 2, type: "husky")
+//            print("in if ")
         }
         
         print("this is executed")
+        print(Cat.catArray)
     }
 
     // MARK: - Table view data source
@@ -41,6 +51,10 @@ class CatTableViewController: UITableViewController {
         cell.catImage.image = Cat.catArray[indexPath.row].image
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
 
 
