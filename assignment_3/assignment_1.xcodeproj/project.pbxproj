@@ -19,6 +19,7 @@
 		20680C82232F1B4E00D5F9A3 /* CatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20680C81232F1B4E00D5F9A3 /* CatTableViewController.swift */; };
 		20680C84232F1B5E00D5F9A3 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20680C83232F1B5E00D5F9A3 /* CatTableViewCell.swift */; };
 		20845A95234D5B0A00819F64 /* AddCatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20845A94234D5B0A00819F64 /* AddCatTableViewCell.swift */; };
+		20845A9A2351533900819F64 /* CatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204412C723317E4D0084DD1F /* CatDetailViewController.swift */; };
 		20BEE924233DABF9003EF352 /* addCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BEE923233DABF9003EF352 /* addCatViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -286,6 +287,7 @@
 			files = (
 				20845A95234D5B0A00819F64 /* AddCatTableViewCell.swift in Sources */,
 				2018411923340A9B0010F2B4 /* CatDetailViewController.swift in Sources */,
+				20845A9A2351533900819F64 /* CatDetailViewController.swift in Sources */,
 				20680C84232F1B5E00D5F9A3 /* CatTableViewCell.swift in Sources */,
 				20105600232DE89000DD77A0 /* ViewController.swift in Sources */,
 				20BEE924233DABF9003EF352 /* addCatViewController.swift in Sources */,

@@ -40,14 +40,20 @@ class AddCatTableViewCell: UITableViewCell, UIPickerViewDelegate, UIPickerViewDa
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if(age != -1 ){ pv.selectRow(age, inComponent: 0, animated: false)
+            print(age)
+        }
         return String(row)
     }
+    
+    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
             age = row
             addCat?.checking()
         addCat?.addCatTableView.reloadRows(at: [IndexPath(row: 0, section: 1)], with: .automatic)
-//        addCat?.addCatTableView.reloadSections(IndexSet.init(integer: 1), with: .automatic)
+        pv.reloadAllComponents()
     }
+    
     
     func textViewDidChange(_ textView: UITextView) {
         if (tv.tag == 0)
@@ -78,4 +84,5 @@ class AddCatTableViewCell: UITableViewCell, UIPickerViewDelegate, UIPickerViewDa
         }
         addCat?.checking()
     }
+    
 }

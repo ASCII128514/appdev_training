@@ -126,6 +126,8 @@ class addCatViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if(indexPath.section == 1 && indexPath.row == 0) {
             isopen = !isopen
+            let cell = addCatTableView.dequeueReusableCell(withIdentifier: "AddCatCell") as! AddCatTableViewCell
+            cell.pv.reloadAllComponents()
         }
         addCatTableView.reloadSections(IndexSet.init(integer: 1), with: .automatic)
     }
