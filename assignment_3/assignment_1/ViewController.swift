@@ -8,11 +8,24 @@
 
 import UIKit
 
+extension UIViewController {
+    func dismiss() -> Void {
+        let tap : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(removeKeyBoard))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func removeKeyBoard() -> Void {
+        view.endEditing(false)
+    }
+
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var btn: UIButton!
 
     override func viewDidLoad() {
+        dismiss()
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         if (((UserDefaults.standard.object(forKey: "name"))) != nil) {

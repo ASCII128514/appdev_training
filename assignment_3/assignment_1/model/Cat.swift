@@ -41,9 +41,9 @@ class Cat: NSObject {
                 return
             }
             
-            let result = try? JSONSerialization.jsonObject(with: data!, options: []) as! Array<Dictionary<String, String>>
+            let result = try! JSONSerialization.jsonObject(with: data!, options: []) as! Array<Dictionary<String, String>>
 
-            completion(result!)
+            completion(result)
         }
         task.resume()
     }

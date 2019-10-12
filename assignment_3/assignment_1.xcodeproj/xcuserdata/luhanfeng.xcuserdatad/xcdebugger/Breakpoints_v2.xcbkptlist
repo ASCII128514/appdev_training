@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "087E885F-206F-4FB8-AE91-2D8ADFD47F8D"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "02A73421-AE15-4EF5-ACE7-2D8213601974"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -22,6 +24,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4745F7D3-8E4F-4F10-8AB8-853612E37CD9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -38,15 +41,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A09A30A1-E2EE-4825-A648-1FCB5643FEF4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "assignment_1/CatTableViewController.swift"
-            timestampString = "590613212.63815"
+            timestampString = "590642244.6907851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -54,15 +58,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "AEE47AF6-FA7B-4DE8-A386-3DA94FB06D08"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "assignment_1/CatTableViewController.swift"
-            timestampString = "590613212.640515"
+            timestampString = "590642244.693801"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -70,6 +75,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F13B9E1A-8BDA-4A19-B835-E6DBAFC61BCE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -86,6 +92,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -99,6 +106,7 @@
             landmarkType = "3">
             <Locations>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - 6efa62c5f7737913"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -114,6 +122,7 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - 3c4089f7ad3f72d4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -129,6 +138,7 @@
                   offsetFromSymbolStart = "37">
                </Location>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - 3d546383e525d80b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -144,6 +154,7 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - 26e42c9e386c1aa2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -159,6 +170,7 @@
                   offsetFromSymbolStart = "201">
                </Location>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - b1e0a2e6100250e2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -174,6 +186,7 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - a726a470e5712bd1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -189,6 +202,7 @@
                   offsetFromSymbolStart = "119">
                </Location>
                <Location
+                  uuid = "566EFE4A-CD5F-4271-A9B5-945A59B9A97C - 3b54846f3fb5ae3d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"

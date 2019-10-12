@@ -9,10 +9,8 @@
 import UIKit
 
 class CatTableViewController: UITableViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // if there an't any cat, add default cat
+    
+    override func viewWillAppear(_ animated: Bool) {
         if (Cat.count == 0) {
             Cat.loadCat { (res) in
                 for i in res {
@@ -22,14 +20,25 @@ class CatTableViewController: UITableViewController {
                     
                     Cat.addCat(name: name, image: img, age: Int(i["age"]!), type: i["type"])
                 }
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
             }
+            print("this is executed")
+            print(Cat.catArray)
+        }
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // if there an't any cat, add default cat
+        
 //            Cat.addCat(name: "Cat1", image: #imageLiteral(resourceName: "download"), age: 1, type: "corgi")
 //            Cat.addCat(name: "Cat2", image: #imageLiteral(resourceName: "download-1"), age: 2, type: "husky")
 //            print("in if ")
-        }
         
-        print("this is executed")
-        print(Cat.catArray)
+        
+        
     }
 
     // MARK: - Table view data source
