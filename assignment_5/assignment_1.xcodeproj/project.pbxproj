@@ -55,7 +55,6 @@
 		2010561F232DE89100DD77A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2018411823340A9B0010F2B4 /* CatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailViewController.swift; sourceTree = "<group>"; };
 		204412C1233165260084DD1F /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
-		204412C723317E4D0084DD1F /* CatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatDetailViewController.swift; path = ../../../../../.Trash/CatDetailViewController.swift; sourceTree = "<group>"; };
 		20680C81232F1B4E00D5F9A3 /* CatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewController.swift; sourceTree = "<group>"; };
 		20680C83232F1B5E00D5F9A3 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
 		20845A94234D5B0A00819F64 /* AddCatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCatTableViewCell.swift; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 				20680C83232F1B5E00D5F9A3 /* CatTableViewCell.swift */,
 				20105601232DE89000DD77A0 /* Main.storyboard */,
 				20845A94234D5B0A00819F64 /* AddCatTableViewCell.swift */,
-				204412C723317E4D0084DD1F /* CatDetailViewController.swift */,
 				20105604232DE89100DD77A0 /* Assets.xcassets */,
 				20105606232DE89100DD77A0 /* LaunchScreen.storyboard */,
 				20105609232DE89100DD77A0 /* Info.plist */,
